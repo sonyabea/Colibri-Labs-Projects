@@ -1,7 +1,7 @@
 """
 Randomize rows 50/50 into treatment/control, run balance checks on zip5, age, sex,
 and (only when --export is passed) write:
-  1. <stem>_with_universe.csv  - all rows + `universe` column
+  1. <stem>_full_universe.csv  - all rows + `universe` column
   2. <stem>_treatment.csv      - treatment rows only
 
 Usage:
